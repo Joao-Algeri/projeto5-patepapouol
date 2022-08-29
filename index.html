@@ -20,32 +20,15 @@
         <ion-icon class="bar-top-icon" name="people"></ion-icon>
       </div>
     </div>
-    <div class="message-box">
-      <!-- <div class="message-inside grey">
-        <div class="message">
-          <span class="light">(09:21:45)</span>
-          <span class="bold">João</span> entra na sala...
-        </div>
-      </div>
-      <div class="message-inside">
-        <div class="message">(09:22:28) João para Todos: Bom dia</div>
-      </div>
-      <div class="message-inside">
-        <div class="message">(09:22:38) Maria para João: Oi João :)</div>
-      </div>
-      <div class="message-inside red">
-        <div class="message">
-          (09:22:48) João reservadamente para Maria: Oi gatinha quer tc?
-        </div>
-      </div>
-      <div class="message-inside grey">
-        <div class="message">(09:22:58) Maria sai da sala...</div>
-      </div> -->
-    </div>
+    <div class="message_box"></div>
     <div class="bar-bottom">
       <div class="bar-bottom-box">
         <input class="input" type="text" placeholder="Escreva aqui..." />
-        <ion-icon class="bar-bottom-icon" name="paper-plane-outline"></ion-icon>
+        <ion-icon
+          onclick="sendsMessage()"
+          class="bar-bottom-icon"
+          name="paper-plane-outline"
+        ></ion-icon>
       </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 80px;
   background-color: #ffffff;
-  /* background-color: red; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,12 +28,11 @@ body {
   width: 90vw;
   display: flex;
   justify-content: space-between;
-  /* background-color: blue; */
 }
 .bar-bottom {
   width: 100vw;
   height: 80px;
-  /* background-color: green; */
+
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -49,7 +48,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: red; */
 }
 .bar-bottom-icon {
   font-size: 30px;
@@ -62,41 +60,34 @@ body {
   font-style: italic;
   border: none;
 }
-.message-box {
+.message_box {
   width: 100vw;
   margin-top: 106px;
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: red; */
 }
 .message-inside {
   height: 40px;
   width: 100vw;
   display: flex;
   display: row;
-  /* justify-content: center; */
-  /* text-align: center; */
-  /* align-items: center; */
+
   background-color: #ffffff;
   margin-bottom: 4px;
   border-radius: 2px;
 }
 .message {
-  /* background-color: #ffffff; */
-  /* height: 80px; */
   width: 95vw;
-  /* margin-bottom: 4px; */
+
   font-size: 14px;
   font-weight: 400;
-  /* color: #000000; */
+
   display: flex;
   align-items: center;
   margin-left: 8px;
   flex-wrap: wrap;
-  /* border-radius: 2px; */
-  /* background-color: blue; */
 }
 .bold {
   font-weight: bold;
@@ -109,4 +100,8 @@ body {
 }
 .red {
   background-color: #ffdede;
+}
+.margin {
+  margin-right: 4px;
+  margin-left: 4px;
 }
